@@ -7,37 +7,42 @@
     <title>AI Poem Generator</title>
   </head>
   <body>
-    <header>
-      <h1>AI Poem Generator</h1>
-    </header>
-    <main>
-      <form>
-        <input
-          type="text"
-          required
-          autofocus
-          autocomplete="off"
-          placeholder="Enter the topic of the poem"
-        />
-        <input type="submit" />
-      </form>
-      <div id="poem">A poem will generate here...</div>
-    </main>
-    <footer>
-      This AI project was coded by
-      <a href="https://github.com/jesssanders" target="_blank">Jess Sanders</a>
-      and is
-      <a
-        href="https://github.com/jesssanders/AI-Poem-Generator"
-        target="_blank"
-      >
-        open-sourced on GitHub</a
-      >
-      and is
-      <a href="https://js-ai-poem-generator.netlify.app/" target="_blank"
-        >hosted on Netlify</a
-      >.
-    </footer>
+    <div class="container">
+      <header>
+        <h1>AI Poem Generator</h1>
+      </header>
+      <main>
+        <form>
+          <input
+            type="text"
+            required
+            autofocus
+            autocomplete="off"
+            placeholder="Enter the topic of the poem"
+            class="search-bar"
+          />
+          <input type="submit" class="search-button" />
+        </form>
+        <div id="poem" class="poem-container">A poem will generate here...</div>
+      </main>
+      <footer>
+        This AI project was coded by
+        <a href="https://github.com/jesssanders" target="_blank"
+          >Jess Sanders</a
+        >
+        and is
+        <a
+          href="https://github.com/jesssanders/AI-Poem-Generator"
+          target="_blank"
+        >
+          open-sourced on GitHub</a
+        >
+        and is
+        <a href="https://js-ai-poem-generator.netlify.app/" target="_blank"
+          >hosted on Netlify</a
+        >.
+      </footer>
+    </div>
     <script src="script.js"></script>
   </body>
 </html>
