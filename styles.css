@@ -71,3 +71,9 @@ form {
   border-left: 5px solid rgb(0, 114, 185);
   box-shadow: 5px 5px 20px rgb(27 43 79 / 30%);
 }
+
+.author {
+  color: rgb(0, 114, 185);
+  font-style: italic;
+  font-weight: 600;
+}
