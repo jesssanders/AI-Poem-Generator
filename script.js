@@ -7,7 +7,7 @@ function generatePoem(event) {
   let poem = document.querySelector("#poem");
   poem.classList.add("poem-container");
   new Typewriter("#poem", {
-    strings: `Generating your poem... please wait...`,
+    strings: `⌛ Generating your poem... please wait...`,
     autoStart: true,
     cursor: "",
     delay: 25,
